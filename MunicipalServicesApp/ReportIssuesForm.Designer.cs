@@ -57,6 +57,7 @@
             this.txtLocation.Name = "txtLocation";
             this.txtLocation.Size = new System.Drawing.Size(400, 22);
             this.txtLocation.TabIndex = 1;
+            this.txtLocation.TextChanged += new System.EventHandler(this.txtLocation_TextChanged);
             // 
             // label2
             // 
@@ -80,6 +81,7 @@
             this.cmbCategory.Name = "cmbCategory";
             this.cmbCategory.Size = new System.Drawing.Size(400, 24);
             this.cmbCategory.TabIndex = 3;
+            this.cmbCategory.SelectedValueChanged += new System.EventHandler(this.cmbCategory_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -97,6 +99,7 @@
             this.rtxtDescription.Size = new System.Drawing.Size(550, 150);
             this.rtxtDescription.TabIndex = 5;
             this.rtxtDescription.Text = "";
+            this.rtxtDescription.TextChanged += new System.EventHandler(this.rtxtDescription_TextChanged);
             // 
             // btnAttachMedia
             // 
@@ -143,6 +146,7 @@
             this.btnSubmit.TabIndex = 10;
             this.btnSubmit.Text = "Submit Report";
             this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnBack
             // 

@@ -31,11 +31,8 @@ namespace MunicipalServicesApp
                 lblFileName.Text = System.IO.Path.GetFileName(attachedFileName);
                 lblFileName.ForeColor = Color.Green;
 
-                // Increase progress bar for attaching file
-                if (progressBar1.Value < 100)
-                {
-                    progressBar1.Value = Math.Min(progressBar1.Value + 20, 100);
-                }
+                // Update progress bar after attaching file
+                UpdateProgressBar();
             }
         }
 
@@ -100,7 +97,7 @@ namespace MunicipalServicesApp
             this.Close();
         }
 
-        // Engagement Feature: Update progress bar as user types
+        // Engagement Feature: Update progress bar as user completes fields
         private void txtLocation_TextChanged(object sender, EventArgs e)
         {
             UpdateProgressBar();
@@ -120,32 +117,36 @@ namespace MunicipalServicesApp
         {
             int progress = 0;
 
+            // 25% for Location
             if (!string.IsNullOrWhiteSpace(txtLocation.Text))
                 progress += 25;
 
+            // 25% for Category
             if (cmbCategory.SelectedIndex != -1)
                 progress += 25;
 
+            // 25% for Description
             if (!string.IsNullOrWhiteSpace(rtxtDescription.Text))
                 progress += 25;
 
+            // 25% for Attached File
             if (!string.IsNullOrWhiteSpace(attachedFileName))
                 progress += 25;
 
             progressBar1.Value = progress;
 
-            // Add encouraging message based on progress
+            // Update form title based on progress
             if (progress == 100)
             {
-                this.Text = "Report an Issue - Ready to Submit!";
+                this.Text = "OR Tambo District Municipality - Ready to Submit!";
             }
             else if (progress >= 50)
             {
-                this.Text = "Report an Issue - Almost there!";
+                this.Text = "OR Tambo District Municipality - Almost there!";
             }
             else
             {
-                this.Text = "Report an Issue";
+                this.Text = "OR Tambo District Municipality - Report an Issue";
             }
         }
     }
