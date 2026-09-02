@@ -173,7 +173,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ReportIssuesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Report an Issue";
+            this.Text = "OR Tambo District Municipality - Report an Issue";
             this.ResumeLayout(false);
             this.PerformLayout();
 

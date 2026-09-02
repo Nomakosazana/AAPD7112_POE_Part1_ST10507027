@@ -37,13 +37,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(150, 30);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(34, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(526, 31);
+            this.label1.Size = new System.Drawing.Size(722, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome to the Municipal Services App";
-            // REMOVED THE label1.Click LINE - IT WAS CAUSING THE ERROR
+            this.label1.Text = "Welcome to the OR Tambo District Municipality Services App";
             // 
             // btnReportIssues
             // 
@@ -91,7 +90,8 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Municipal Services - Main Menu";
+            this.Text = "OR Tambo District Municipality - Main Menu";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

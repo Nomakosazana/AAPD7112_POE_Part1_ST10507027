@@ -35,5 +35,10 @@ namespace MunicipalServicesApp
             MessageBox.Show("This feature will be available in the final PoE.", "Coming Soon",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
