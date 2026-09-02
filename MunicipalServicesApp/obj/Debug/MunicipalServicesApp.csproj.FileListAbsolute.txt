@@ -1,0 +1,11 @@
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\obj\Debug\MunicipalServicesApp.csproj.AssemblyReference.cache
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\obj\Debug\MunicipalServicesApp.Form1.resources
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\obj\Debug\MunicipalServicesApp.Properties.Resources.resources
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\obj\Debug\MunicipalServicesApp.ReportIssuesForm.resources
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\obj\Debug\MunicipalServicesApp.csproj.GenerateResource.cache
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\obj\Debug\MunicipalServicesApp.csproj.CoreCompileInputs.cache
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\bin\Debug\MunicipalServicesApp.exe.config
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\bin\Debug\MunicipalServicesApp.exe
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\bin\Debug\MunicipalServicesApp.pdb
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\obj\Debug\MunicipalServicesApp.exe
+C:\Users\Khosi\Desktop\POEPART1_ST10507027\MunicipalServicesApp\obj\Debug\MunicipalServicesApp.pdb
